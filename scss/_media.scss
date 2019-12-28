@@ -1,0 +1,31 @@
+@media (max-width: 898px){
+  #recent-projects {
+    .projects-container{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      .card:last-child{
+        display: none;
+      }
+    }
+  }
+  #recent-blogs .blogs-container{
+    .card img{
+      align-items: center;
+    }
+  }
+  #podcast .podcast-content {
+    #img-content img{
+      width: 230px;
+      height: 220px;
+    }
+    .text-content{
+      font-size: 0.8rem;
+      a{
+        padding: 0.5rem;
+        width: 82px;
+        text-align: center;
+      }
+    }
+  }
+}
+

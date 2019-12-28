@@ -1,0 +1,121 @@
+// Showcase
+
+
+#showcase{
+  color: $primary-light;
+  background: $primary-color;
+  position: relative;
+  &:before{
+    content: '';
+    background: $main-showcase-img no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+  }
+  .showcase-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    .showcase-content{
+      z-index: 1;
+    }
+  }
+}
+
+
+// Recent Projects
+
+#recent-projects .projects-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  .card{
+    display: flex;
+    flex-direction: column;
+    border: $secondary-light 1px solid;
+    align-items: center;
+    img{
+      width: 250px;
+      height: 150px;
+    }
+  }
+}
+
+
+// Recent Blogs
+#recent-blogs{
+  .blogs-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+    .card{
+      display: flex;
+      img {
+        height: 200px;
+        width: 300px;
+      }
+      a {
+        color: $primary-color;
+      }
+      .content {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+
+
+// Podcast Section
+#podcast{
+  .podcast-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+    #img-content {
+      justify-self: center;
+      align-self: center;
+      position: relative;
+      img {
+        width: 360px;
+        height: 340px;
+      }
+    }
+    .text-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      h1{
+        margin-bottom: 0.5rem;
+      }
+      a {
+        width: 113px;
+        &:hover {
+          background: rgba($primary-color, 0.8);
+        }
+      }
+    }
+  }
+}
+
+// Podcast Image Transition
+
+#img-content img{
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  transform: translate(-400px, 0);
+}
+#img-content.show img {
+  transform: none;
+  visibility: visible;
+  opacity: 0.9;
+}
+

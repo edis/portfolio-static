@@ -1,0 +1,169 @@
+@import "config";
+
+
+#page-content{
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  padding-bottom: 4rem;
+}
+
+.container{
+  max-width: $max-width;
+  margin: auto;
+  padding: 0.25rem 0;
+}
+
+.current{
+  color: $primary-link;
+}
+
+.card{
+  background: $card-background-color;
+  padding: 1rem;
+  border: 1px solid $secondary-light;
+}
+
+.py {
+  &-half {
+    padding: 0.5rem 0;
+  }
+  &-1 {
+    padding: 1rem 0;
+  }
+  &-2 {
+    padding: 2rem 0;
+  }
+  &-3 {
+    padding: 3rem 0;
+  }
+  &-4 {
+    padding: 4rem 0;
+  }
+}
+
+.p{
+  &-half {
+    padding: 0.5rem ;
+  }
+  &-1 {
+    padding: 1rem;
+  }
+  &-2 {
+    padding: 2rem;
+  }
+  &-3 {
+    padding: 3rem;
+  }
+  &-4 {
+    padding: 4rem;
+  }
+}
+
+.my {
+  &-half {
+    margin: 0.5rem 0;
+  }
+  &-1 {
+    margin: 1rem 0;
+  }
+  &-2 {
+    margin: 2rem 0;
+  }
+  &-3 {
+    margin: 3rem 0;
+  }
+  &-4 {
+    margin: 4rem 0;
+  }
+}
+
+.m{
+  &-half {
+    margin: 0.5rem;
+  }
+  &-1 {
+    margin: 1rem;
+  }
+  &-2 {
+    margin: 2rem;
+  }
+  &-3 {
+    margin: 3rem;
+  }
+  &-4 {
+    margin: 4rem;
+  }
+}
+
+.recent-section-title{
+  color: $primary-color;
+}
+
+.center{
+  text-align: center;
+}
+
+.btn-dark{
+    background: $primary-color;
+    color: $primary-light;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    &:hover{
+      background: rgba($primary-color, 0.9);
+    }
+}
+
+.btn-dark-square{
+    background: $primary-color;
+    padding: 0.75rem;
+    &:hover{
+      background: rgba($primary-color, 0.9);
+    }
+}
+
+.under{
+  text-decoration: underline;
+}
+
+.project-name{
+  text-decoration: underline;
+  margin-top: 0.25rem;
+}
+
+.section-border-bottom{
+  margin: 0 0.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px dashed $primary-color;
+}
+
+.holder-border{
+  border: 1px solid $secondary-light;
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  width: 18rem;
+  border-left: none;
+  border-bottom: 3px dotted $primary-color;
+}
+
+.prompt{
+  font-weight: bold;
+  color: steelblue;
+}
+
+.answer{
+  font-size: 1.3rem;
+}
+
+.under-blue{
+  text-decoration: $primary-link underline;
+}

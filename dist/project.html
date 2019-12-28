@@ -13,61 +13,74 @@
 <body>
     <div id="page-content">
         <div class="content-wrap">
-        <nav id="nav-bar">
-            <div class="container">
-                <h1>Edis Gonuler</h1>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="blogs.html">Blogs</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-            </div>
-        </nav>
 
-        <section id="project-showcase">
-            <div class="container">
-                <div id="project-content">
-                    <h1>Project Title</h1>
-<!--                    <h3><span class="prompt">Code: </span><a>www.github.com/edis/repo</a></h3>-->
-                    <img src="../static/projects/item6.png">
-                </div>
-            </div>
-        </section>
-            <section id="project-info">
+            <!--   Navbar     -->
+            <nav id="nav-bar">
                 <div class="container">
-                    <div class="project-grid">
-                    <div class="title-section">
-                        <h1>Overview</h1>
-                        <a href="#">View Code</a>
+                    <div class="navbar-content">
+                        <h1 class="logo">Edis Gonuler</h1>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
                     </div>
-                    <div class="project-info-content">
-                        <div class="prompts">
-                        <h2><span class="prompt">Role: </span><span class="answer">Web Developer</span></h2>
-                            <h2><span class="prompt">Timeline: </span><span class="answer">12/1/2019 - 12/29/2019</span></h2>
-                            <h2><span class="prompt">Skills: </span><span class="answer">REST APIs, Ruby on Rails, Database Management</span></h2>
-                            <h2><span class="prompt">Tools: </span><span class="answer">Ruby, Rails, PostgresDB, Postman</span></h2>
-                        </div>
-                        <div class="purpose">
-                        <h2><span class="prompt">Purpose: </span><span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Accusamus accusantium dolorem illum natus numquam praesentium quisquam saepe soluta tempore voluptate.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Accusamus accusantium dolorem illum natus numquam praesentium quisquam saepe soluta tempore voluptate</p></span></h2>
-                        </div>
-                    </div>
+                </div>
+            </nav>
+            <!-- Project Showcase/ Title + Image -->
+            <section id="project-showcase">
+                <div class="container">
+                    <div id="project-content">
+                        <h1 class="py-1">Project Title</h1>
+                        <img class="holder-border" src="../static/projects/item6.png" alt="Project Image">
                     </div>
                 </div>
             </section>
-            <section id="progress">
+            <!-- Project Overview w/ Information -->
+            <section id="project-info">
                 <div class="container">
-                    <div class="progress-content">
+                        <div class="overview-container my-half">
+                            <div class="project-grid">
+
+                                <div class="title-section m-half">
+                                    <h1 class="under">Overview</h1>
+                                    <a class="btn-dark-square" href="#">View Code</a>
+                                </div>
+
+                                <div class="project-info-content">
+                                    <div class="prompts">
+                                        <h2><span class="prompt">Role: </span><span class="answer">Web Developer</span></h2>
+                                        <h2><span class="prompt">Timeline: </span><span class="answer">12/1/2019 - 12/29/2019</span></h2>
+                                        <h2><span class="prompt">Skills: </span><span class="answer">REST APIs, Ruby on Rails, Database Management</span></h2>
+                                        <h2><span class="prompt">Tools: </span><span class="answer">Ruby, Rails, PostgresDB, Postman</span></h2>
+                                    </div>
+
+                                    <div class="purpose">
+                                        <h2><span class="prompt">Purpose: </span><span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Accusamus accusantium dolorem illum natus numquam praesentium quisquam saepe soluta tempore voluptate.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                            Accusamus accusantium dolorem illum natus numquam praesentium quisquam saepe soluta tempore voluptate</p></span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </section>
+
+
+            <section id="process">
+                <div class="container">
+                    <div class="process-content">
                         <h1>The Process</h1>
                     </div>
                 </div>
             </section>
-            <section id="section-a">
+
+
+            <section id="section-a" class="process-content py-1">
                 <div class="container">
-                    <div class="section-project-content">
+                    <div class="section-project-content p-1">
                         <div class="title-showcase">
                             <div class="image-container">
                                 <img src="../static/project1.jpeg" alt="Section A Image">
@@ -76,15 +89,15 @@
                                 <h2>Section Title:<span class="answer"> Choosing Framework</span></h2>
                                 <h2>Timeline:<span class="answer"> 12/2/19-12/5/19</span></h2>
                                 <div class="progress-project">
-                                    <h2>Progress of Project:</h2>
+                                    <h2>Completed:</h2>
                                     <div class="progress-bar">
-                                        <div>10%</div>
+                                        <div style="width: 10%">10%</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="description">
-                            <h3 class="under"><span class="prompt">Description:</span></h3>
+                            <h3 class="under-blue"><span class="prompt">Description:</span></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore enim optio sequi
                                 temporibus? Architecto aut autem blanditiis commodi culpa debitis earum eligendi eum
                                 eveniet explicabo inventore laudantium libero magni maiores numquam porro possimus
@@ -93,17 +106,21 @@
                                 commodi culpa dolorem ea et expedita quidem. Corporis delectus dignissimos excepturi
                                 fugiat maiores modi, nemo nostrum officiis quae, quidem temporibus veniam? Autem facilis
                                 iure, porro praesentium quia sapiente. Mollitia odit quidem quis voluptatum! Aut expedita
-                                explicabo labore, magnam odit qui quidem similique sit voluptatem!</p>
+                                explicabo labore, magnam odit qui quidem similique sit voluptatem!
+                            </p>
                         </div>
                     </div>
-                    <div class="lines">
+
+                    <div class="line-container">
                         <div class="line"></div>
                     </div>
                 </div>
             </section>
-            <section id="section-b">
+
+
+            <section id="section-b" class="process-content py-1">
                 <div class="container">
-                    <div class="section-project-content">
+                    <div class="section-project-content p-1">
                         <div class="title-showcase">
                             <div class="image-container">
                                 <img src="../static/project2.png" alt="Section B Image">
@@ -112,15 +129,15 @@
                                 <h2>Section Title:<span class="answer"> Starting Project</span></h2>
                                 <h2>Timeline:<span class="answer"> 12/6/19-12/7/19</span></h2>
                                 <div class="progress-project">
-                                    <h2>Progress of Project:</h2>
+                                    <h2>Completed:</h2>
                                     <div class="progress-bar">
-                                        <div>20%</div>
+                                        <div style="width: 20%">20%</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="description">
-                            <h3 class="under"><span class="prompt">Description:</span></h3>
+                            <h3 class="under-blue"><span class="prompt">Description:</span></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore enim optio sequi
                                 temporibus? Architecto aut autem blanditiis commodi culpa debitis earum eligendi eum
                                 eveniet explicabo inventore laudantium libero magni maiores numquam porro possimus
@@ -132,14 +149,16 @@
                                 explicabo labore, magnam odit qui quidem similique sit voluptatem!</p>
                         </div>
                     </div>
-                    <div class="lines">
+                    <div class="line-container">
                         <div class="line"></div>
                     </div>
                 </div>
             </section>
-            <section id="section-c">
+
+
+            <section id="section-c" class="process-content py-1">
                 <div class="container">
-                    <div class="section-project-content">
+                    <div class="section-project-content p-1">
                         <div class="title-showcase">
                             <div class="image-container">
                                 <img src="../static/project3.png" alt="Section C Image">
@@ -148,15 +167,15 @@
                                 <h2>Section Title:<span class="answer"> Completing API</span></h2>
                                 <h2>Timeline:<span class="answer"> 12/7/19-12/19/19</span></h2>
                                 <div class="progress-project">
-                                    <h2>Progress of Project:</h2>
+                                    <h2>Completed:</h2>
                                     <div class="progress-bar">
-                                        <div>60%</div>
+                                        <div style="width: 60%">60%</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="description">
-                            <h3 class="under"><span class="prompt">Description:</span></h3>
+                            <h3 class="under-blue"><span class="prompt">Description:</span></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore enim optio sequi
                                 temporibus? Architecto aut autem blanditiis commodi culpa debitis earum eligendi eum
                                 eveniet explicabo inventore laudantium libero magni maiores numquam porro possimus
@@ -168,13 +187,17 @@
                                 explicabo labore, magnam odit qui quidem similique sit voluptatem!</p>
                         </div>
                     </div>
-                    <div class="lines">
+
+                    <div class="line-container">
                         <div class="line"></div>
                     </div>
+
                 </div>
             </section>
         </div>
-        <footer id="footer">
+
+        <!--  Footer   -->
+        <footer id="footer" class="py-1">
             <div class="container">
                 <div class="footer-content">
                     <h4>Copyright &copy; Edis Gonuler 2020 All Right Reserved</h4>
@@ -185,6 +208,7 @@
                 </div>
             </div>
         </footer>
+
     </div>
     <script src="../src/js/main.js"></script>
 </body>
