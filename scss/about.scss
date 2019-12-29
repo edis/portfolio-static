@@ -1,0 +1,76 @@
+@import "config";
+
+#about-intro{
+  .about-intro-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    img{
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+    }
+    .about-text-content{
+      margin-top: 2.5rem;
+      h1{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+      p{
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+#about-education {
+  .about-education-content {
+
+    .about-education-title {
+      margin-left: 1rem;
+      display: flex;
+      flex-direction: row;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+
+    .schools {
+      margin-top: 1rem;
+      .school {
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: row;
+
+        .school-info {
+          display: flex;
+          flex-direction: column;
+          margin: 1.7rem 0 0 0.5rem;
+
+          h1 {
+            font-size: 1.3rem;
+          }
+
+          h2 {
+            font-size: 1.1rem;
+          }
+
+          h3 {
+            font-size: 1rem;
+          }
+        }
+
+        img {
+          width: 150px;
+          height: 150px;
+        }
+
+        .nest {
+          border: 2px solid $secondary-light;
+        }
+      }
+    }
+  }
+}
+

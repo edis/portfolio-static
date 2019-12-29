@@ -19,6 +19,11 @@
     height: 50vh; }
     #showcase .showcase-container .showcase-content {
       z-index: 1; }
+      #showcase .showcase-container .showcase-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem; }
+      #showcase .showcase-container .showcase-content p {
+        font-size: 1.1rem; }
 
 #recent-projects .projects-container {
   display: grid;

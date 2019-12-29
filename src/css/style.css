@@ -313,6 +313,11 @@
     height: 50vh; }
     #showcase .showcase-container .showcase-content {
       z-index: 1; }
+      #showcase .showcase-container .showcase-content h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem; }
+      #showcase .showcase-container .showcase-content p {
+        font-size: 1.1rem; }
 
 #recent-projects .projects-container {
   display: grid;
@@ -501,11 +506,11 @@
     padding-top: 75%;
     overflow: hidden; }
   .display-project .item-image img {
+    width: 343.33px;
+    height: 257.48px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: auto;
     line-height: 0; }
   .display-project .project-text {
     position: absolute;
@@ -587,6 +592,51 @@
   #references .references-content ul {
     padding-left: 2rem;
     list-style: disc; }
+
+#about-intro .about-intro-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr; }
+  #about-intro .about-intro-content img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; }
+  #about-intro .about-intro-content .about-text-content {
+    margin-top: 2.5rem; }
+    #about-intro .about-intro-content .about-text-content h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem; }
+    #about-intro .about-intro-content .about-text-content p {
+      font-size: 1.2rem; }
+
+#about-education .about-education-content .about-education-title {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row; }
+  #about-education .about-education-content .about-education-title h1 {
+    font-size: 1.8rem; }
+
+#about-education .about-education-content .schools {
+  margin-top: 1rem; }
+  #about-education .about-education-content .schools .school {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row; }
+    #about-education .about-education-content .schools .school .school-info {
+      display: flex;
+      flex-direction: column;
+      margin: 1.7rem 0 0 0.5rem; }
+      #about-education .about-education-content .schools .school .school-info h1 {
+        font-size: 1.3rem; }
+      #about-education .about-education-content .schools .school .school-info h2 {
+        font-size: 1.1rem; }
+      #about-education .about-education-content .schools .school .school-info h3 {
+        font-size: 1rem; }
+    #about-education .about-education-content .schools .school img {
+      width: 150px;
+      height: 150px; }
+    #about-education .about-education-content .schools .school .nest {
+      border: 2px solid #C0C0C0; }
 
 * {
   margin: 0;

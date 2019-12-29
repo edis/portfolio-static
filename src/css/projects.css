@@ -48,11 +48,11 @@
     padding-top: 75%;
     overflow: hidden; }
   .display-project .item-image img {
+    width: 343.33px;
+    height: 257.48px;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: auto;
     line-height: 0; }
   .display-project .project-text {
     position: absolute;

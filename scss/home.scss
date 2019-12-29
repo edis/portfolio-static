@@ -21,9 +21,15 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
-
     .showcase-content{
       z-index: 1;
+      h1{
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+      p{
+        font-size: 1.1rem;
+      }
     }
   }
 }
@@ -48,7 +54,7 @@
 }
 
 
- //Recent Blogs is a Utility Class
+// Recent Blogs is a Utility Class
 //.blogs-showcase-content{
 //  article {
 //    display: flex;
