@@ -167,3 +167,23 @@
 .under-blue{
   text-decoration: $primary-link underline;
 }
+
+.blogs-showcase-content{
+  article {
+    display: flex;
+    margin-bottom: 1rem;
+    img {
+      width: 300px;
+      height: 200px;
+    }
+    .content {
+      margin: 0 1rem;
+    }
+    h4{
+      margin-bottom: 1.3rem;
+    }
+    a{
+      color: $primary-link;
+    }
+  }
+}

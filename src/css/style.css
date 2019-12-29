@@ -133,6 +133,19 @@
 .under-blue {
   text-decoration: steelblue underline; }
 
+.blogs-showcase-content article {
+  display: flex;
+  margin-bottom: 1rem; }
+  .blogs-showcase-content article img {
+    width: 300px;
+    height: 200px; }
+  .blogs-showcase-content article .content {
+    margin: 0 1rem; }
+  .blogs-showcase-content article h4 {
+    margin-bottom: 1.3rem; }
+  .blogs-showcase-content article a {
+    color: steelblue; }
+
 #nav-bar {
   background: #333333;
   color: #f3f3f3; }
@@ -221,20 +234,6 @@
     #recent-projects .projects-container .card img {
       width: 250px;
       height: 150px; }
-
-#recent-blogs .blogs-container {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 1rem; }
-  #recent-blogs .blogs-container .card {
-    display: flex; }
-    #recent-blogs .blogs-container .card img {
-      height: 200px;
-      width: 300px; }
-    #recent-blogs .blogs-container .card a {
-      color: #333333; }
-    #recent-blogs .blogs-container .card .content {
-      margin: 0 0.5rem; }
 
 #podcast .podcast-content {
   display: grid;
@@ -366,8 +365,8 @@
     margin: 1rem 0 0.5rem 0;
     font-size: 1.8rem; }
   #projects-section .section-content .projects-intro #page-description {
-    margin-bottom: 1rem;
-    font-size: 1.2rem; }
+    margin-bottom: 1.1rem;
+    font-size: 1.1rem; }
   #projects-section .section-content .projects-content {
     display: grid;
     grid-template-columns: 1fr; }
@@ -442,6 +441,13 @@
     font-size: 1.2rem;
     opacity: 0.7;
     margin: 0; }
+
+#blogs-title .blogs-title-content h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem; }
+
+#blogs-title .blogs-title-content p {
+  font-size: 1.1rem; }
 
 * {
   margin: 0;
