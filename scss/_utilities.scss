@@ -179,11 +179,108 @@
     .content {
       margin: 0 1rem;
     }
-    h4{
-      margin-bottom: 1.3rem;
-    }
     a{
       color: $primary-link;
     }
+  }
+}
+
+// Tags System
+  .tags {
+    .tag {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      border-radius: 1rem;
+      color: $primary-white !important;
+    }
+
+    .python {
+      background: $tag-python;
+      color: set-text-color($tag-python);
+    }
+
+    .ruby {
+      background: $tag-ruby;
+      color: set-text-color($tag-ruby);
+    }
+    .javascript {
+      background: $tag-javascript;
+      color: set-text-color($tag-javascript);
+    }
+    .java {
+      background: $tag-java;
+      color: set-text-color($tag-java);
+    }
+    .r{
+      background: $tag-r;
+      color: set-text-color($tag-r);
+    }
+    .other-lang{
+      background: $tag-other-lang;
+      color: set-text-color($tag-other-lang);
+    }
+    .web-dev{
+      background: $tag-web-dev;
+      color: set-text-color($tag-web-dev);
+    }
+    .data-science{
+      background: $tag-data-science;
+      color: set-text-color($tag-data-science);
+    }
+    .competitions{
+      background: $tag-competitions;
+      color: set-text-color($tag-competitions);
+    }
+    .api{
+      background: $tag-api;
+      color: set-text-color($tag-api);
+    }
+    .machine-learning{
+      background: $tag-machine-learning;
+      color: set-text-color($tag-machine-learning);
+    }
+    .ai{
+      background: $tag-ai;
+      color: set-text-color($tag-ai);
+    }
+    .front-end{
+      background: $tag-front-end;
+      color: set-text-color($tag-front-end);
+    }
+    .other-topic{
+      background: $tag-other-topic;
+      color: set-text-color($tag-other-topic);
+    }
+    .event{
+      background: $tag-event;
+      color: set-text-color($tag-event);
+    }
+    .tensorflow{
+      background: $tag-tensor-flow;
+      color: set-text-color($tag-tensor-flow);
+    }
+    .django{
+      background: $tag-django;
+      color: set-text-color($tag-django);
+    }
+    .rails{
+      background: $tag-rails;
+      color: set-text-color($tag-rails);
+    }
+    .html{
+      background: $tag-html;
+      color: set-text-color($tag-html);
+    }
+  .css{
+    background: $tag-css;
+    color: set-text-color($tag-css);
+  }
+  .sass{
+    background: $tag-sass;
+    color: set-text-color($tag-sass);
+  }
+  .algorithms{
+    background: $tag-algorithms;
+    color: set-text-color($tag-algorithms);
   }
 }

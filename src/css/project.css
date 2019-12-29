@@ -1,0 +1,88 @@
+#project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem; }
+  #project-content h1 {
+    margin: 0.5rem 0;
+    font-size: 1.7rem; }
+  #project-content h3 {
+    margin-bottom: 0.5rem; }
+  #project-content img {
+    width: 1100px;
+    height: 750px; }
+
+#project-info .project-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+  margin-bottom: 2rem; }
+  #project-info .project-grid .title-section {
+    border-right: dashed 2px #333333; }
+    #project-info .project-grid .title-section h1 {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 1.3rem; }
+  #project-info .project-grid .project-info-content h2 {
+    margin: 0.5rem 0; }
+  #project-info .project-grid .project-info-content p {
+    font-size: 1.1rem; }
+  #project-info .project-grid .project-info-content .prompts {
+    margin-bottom: 2rem; }
+
+#process .process-content {
+  border-bottom: 1px rgba(51, 51, 51, 0.4) solid;
+  margin: 0 0.5rem; }
+  #process .process-content h1 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-left: 0.5rem; }
+
+#section-a .progress-bar, #section-b .progress-bar, #section-c .progress-bar {
+  overflow: hidden;
+  height: 20px;
+  background: orange;
+  border-radius: 5px;
+  margin-bottom: 0.6rem; }
+  #section-a .progress-bar div, #section-b .progress-bar div, #section-c .progress-bar div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: green; }
+
+.process-content:last-child .line-container .line {
+  visibility: hidden; }
+
+.process-content .section-project-content {
+  margin-bottom: 1rem;
+  margin-top: 1rem; }
+
+.process-content .section-project-content:first-child {
+  margin-top: 0; }
+
+.process-content .title-showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+  .process-content .title-showcase .section-prompts {
+    padding-left: 1rem; }
+    .process-content .title-showcase .section-prompts h2 {
+      font-size: 1.3rem;
+      color: steelblue;
+      margin-bottom: 0.5rem; }
+      .process-content .title-showcase .section-prompts h2 span {
+        color: #333333; }
+    .process-content .title-showcase .section-prompts .progress-project {
+      margin-top: 1rem; }
+  .process-content .title-showcase .image-container {
+    display: flex;
+    margin-bottom: 1rem; }
+    .process-content .title-showcase .image-container img {
+      display: flex;
+      height: 300px; }
+  .process-content .title-showcase .description h3 {
+    text-decoration: steelblue; }
+  .process-content .title-showcase p {
+    font-size: 1.2rem; }

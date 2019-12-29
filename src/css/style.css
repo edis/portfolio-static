@@ -141,10 +141,102 @@
     height: 200px; }
   .blogs-showcase-content article .content {
     margin: 0 1rem; }
-  .blogs-showcase-content article h4 {
-    margin-bottom: 1.3rem; }
   .blogs-showcase-content article a {
     color: steelblue; }
+
+.tags .tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 1rem;
+  color: #ffffff !important; }
+
+.tags .python {
+  background: #2980B9;
+  color: #f3f3f3; }
+
+.tags .ruby {
+  background: #C70039;
+  color: #f3f3f3; }
+
+.tags .javascript {
+  background: #F1C40F;
+  color: #333333; }
+
+.tags .java {
+  background: #D35400;
+  color: #f3f3f3; }
+
+.tags .r {
+  background: #95A5A6;
+  color: #333333; }
+
+.tags .other-lang {
+  background: #2E4053;
+  color: #f3f3f3; }
+
+.tags .web-dev {
+  background: #AED6F1;
+  color: #333333; }
+
+.tags .data-science {
+  background: #45B39D;
+  color: #f3f3f3; }
+
+.tags .competitions {
+  background: #E74C3C;
+  color: #333333; }
+
+.tags .api {
+  background: #AF7AC5;
+  color: #333333; }
+
+.tags .machine-learning {
+  background: #0CC664;
+  color: #f3f3f3; }
+
+.tags .ai {
+  background: #F4D03F;
+  color: #333333; }
+
+.tags .front-end {
+  background: #7DCEA0;
+  color: #333333; }
+
+.tags .other-topic {
+  background: #E9967A;
+  color: #333333; }
+
+.tags .event {
+  background: #008080;
+  color: #f3f3f3; }
+
+.tags .tensorflow {
+  background: #EF9D0D;
+  color: #f3f3f3; }
+
+.tags .django {
+  background: #086912;
+  color: #f3f3f3; }
+
+.tags .rails {
+  background: #710635;
+  color: #f3f3f3; }
+
+.tags .html {
+  background: #F17F13;
+  color: #333333; }
+
+.tags .css {
+  background: #29138A;
+  color: #f3f3f3; }
+
+.tags .sass {
+  background: #F44592;
+  color: #333333; }
+
+.tags .algorithms {
+  background: #5FA37F;
+  color: #333333; }
 
 #nav-bar {
   background: #333333;

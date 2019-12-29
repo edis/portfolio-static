@@ -1,5 +1,6 @@
 $primary-color: #333333;
 $secondary-color: #808080;
+$primary-white: #ffffff;
 $primary-light: #f3f3f3;
 $secondary-light: #C0C0C0;
 $primary-grey: #909090;
@@ -8,3 +9,42 @@ $card-background-color: #ffffff;
 $max-width: 1100px;
 $overlay-color: steelblue;
 $main-showcase-img: url("../../static/showcase.jpg");
+
+
+// Language Tags
+$tag-python: #2980B9;
+$tag-ruby: #C70039;
+$tag-javascript: #F1C40F;
+$tag-java: #D35400 ;
+$tag-r: #95A5A6;
+$tag-other-lang: #2E4053;
+$tag-html: #F17F13;
+$tag-css: #29138A;
+$tag-sass: #F44592;
+
+// Frameworks
+$tag-tensor-flow: #EF9D0D;
+$tag-django: #086912;
+$tag-rails: #710635;
+
+// Topic Tags
+$tag-web-dev: #AED6F1;
+$tag-data-science: #45B39D;
+$tag-competitions: #E74C3C;
+$tag-api:  #AF7AC5;
+$tag-machine-learning: #0CC664;
+$tag-ai: #F4D03F;
+$tag-front-end: #7DCEA0;
+$tag-other-topic: #E9967A;
+$tag-algorithms: #5FA37F;
+// Events
+$tag-event: #008080;
+
+// Tag Color Function
+@function set-text-color($color){
+  @if (lightness($color) > 50) {
+    @return $primary-color
+  } @else {
+    @return $primary-light
+  }
+}
