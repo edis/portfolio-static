@@ -1,7 +1,7 @@
 @import "config","utilities";
 @import "navbar","footer";
 @import "media";
-@import 'home',"project", "projects", "blogs";
+@import 'home',"project", "projects", "blogs", 'blog';
 
 *{
   margin: 0;
@@ -23,3 +23,5 @@ a{
 ul{
   list-style: none;
 }
+
+
