@@ -238,24 +238,6 @@
   background: #5FA37F;
   color: #333333; }
 
-#nav-bar {
-  background: #333333;
-  color: #f3f3f3; }
-  #nav-bar .navbar-content {
-    display: flex;
-    justify-content: space-between; }
-    #nav-bar .navbar-content .logo {
-      align-self: center;
-      padding: 0 0.75rem; }
-    #nav-bar .navbar-content ul {
-      display: flex;
-      flex-direction: row; }
-      #nav-bar .navbar-content ul li {
-        padding: 0.75rem;
-        font-weight: bold; }
-        #nav-bar .navbar-content ul li a:hover {
-          color: steelblue; }
-
 #footer {
   background: #333333;
   color: #f3f3f3;

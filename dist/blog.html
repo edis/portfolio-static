@@ -14,20 +14,36 @@
 <div id="page-content">
     <div class="content-wrap">
 
-        <!--   Navbar     -->
-        <nav id="nav-bar">
+<!--        &lt;!&ndash;   Navbar     &ndash;&gt;-->
+<!--        <nav id="nav-bar">-->
+<!--            <div class="container">-->
+<!--                <div class="navbar-content">-->
+<!--                    <h1 class="logo">Edis Gonuler</h1>-->
+<!--                    <ul>-->
+<!--                        <li><a href="home.html">Home</a></li>-->
+<!--                        <li><a href="projects.html">Projects</a></li>-->
+<!--                        <li><a class="current" href="blogs.html">Blogs</a></li>-->
+<!--                        <li><a href="about.html">About</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </nav>-->
+        <div id="nav-bar">
             <div class="container">
                 <div class="navbar-content">
-                    <h1 class="logo">Edis Gonuler</h1>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a class="current" href="blogs.html">Blogs</a></li>
-                        <li><a href="about.html">About</a></li>
-                    </ul>
+                    <a class="active logo">Edis Gonuler</a>
+                    <div id="menu">
+                        <a href="home.html">Home</a>
+                        <a href="projects.html">Projects</a>
+                        <a href="blogs.html">Blogs</a>
+                        <a href="about.html">About</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </div>
-        </nav>
+        </div>
     <!--  Blog Post Title, Date, and Tags  -->
     <section id="blog-post-title">
         <div class="container">
@@ -161,6 +177,6 @@
         </div>
     </footer>
 </div>
-
+    <script src="../src/js/hamburger_navbar.js"></script>
 </body>
 </html>

@@ -13,23 +13,20 @@
       align-self: center;
       padding: 0 0.75rem;
     }
-
-    ul {
+    .away{
+      display: none;
+    }
+    #menu {
       display: flex;
       flex-direction: row;
 
-      li {
+      a {
         padding: 0.75rem;
         font-weight: bold;
-
-        a {
           &:hover {
             color: $primary-link;
           }
-
         }
       }
     }
-
   }
-}
