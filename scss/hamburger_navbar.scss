@@ -1,12 +1,8 @@
 @import "config";
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 #nav-bar {
   overflow: hidden;
-  background-color: #333;
+  background-color: $primary-color;
   position: relative;
 }
 
@@ -15,10 +11,10 @@ body {
 }
 
 #nav-bar a {
-  color: white;
+  color: $primary-light;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.3rem;
   display: block;
 }
 
@@ -30,7 +26,27 @@ body {
   margin-top: 0.25rem;
 }
 
+#menu a{
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid $secondary-light;
+  font-weight: bold;
+  &:hover {
+    color: $primary-link;
+  }
+  &:first-child{
+    border-top: 1px solid $primary-light;
+  }
+  &:last-child{
+    border-bottom: none;
+  }
+}
+
 .active {
   background-color: $primary-color;
-  color: white;
+  color: $primary-light;
+}
+
+.current{
+    color: $primary-link !important;
 }

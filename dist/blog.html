@@ -7,27 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches|Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="only screen and (max-width: 766px)" href="../src/css/hamburger_navbar.css">
+    <link rel="stylesheet" media="only screen and (min-width: 767px)" href="../src/css/navbar.css">
     <link rel="stylesheet" href="../src/css/style.css">
     <title>Edis Gonuler | Blog Post #1</title>
 </head>
 <body>
 <div id="page-content">
     <div class="content-wrap">
-
-<!--        &lt;!&ndash;   Navbar     &ndash;&gt;-->
-<!--        <nav id="nav-bar">-->
-<!--            <div class="container">-->
-<!--                <div class="navbar-content">-->
-<!--                    <h1 class="logo">Edis Gonuler</h1>-->
-<!--                    <ul>-->
-<!--                        <li><a href="home.html">Home</a></li>-->
-<!--                        <li><a href="projects.html">Projects</a></li>-->
-<!--                        <li><a class="current" href="blogs.html">Blogs</a></li>-->
-<!--                        <li><a href="about.html">About</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </nav>-->
         <div id="nav-bar">
             <div class="container">
                 <div class="navbar-content">
@@ -35,15 +22,16 @@
                     <div id="menu">
                         <a href="home.html">Home</a>
                         <a href="projects.html">Projects</a>
-                        <a href="blogs.html">Blogs</a>
+                        <a class="current" href="blogs.html">Blogs</a>
                         <a href="about.html">About</a>
                     </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <a href="javascript:void(0);" class="icon away" onclick="myFunction()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
             </div>
         </div>
+
     <!--  Blog Post Title, Date, and Tags  -->
     <section id="blog-post-title">
         <div class="container">

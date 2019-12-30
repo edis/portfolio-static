@@ -1,19 +1,16 @@
-body {
-  font-family: Arial, Helvetica, sans-serif; }
-
 #nav-bar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #333333;
   position: relative; }
 
 #nav-bar #menu {
   display: none; }
 
 #nav-bar a {
-  color: white;
+  color: #f3f3f3;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.3rem;
   display: block; }
 
 #nav-bar a.icon {
@@ -23,6 +20,21 @@ body {
   top: 0;
   margin-top: 0.25rem; }
 
+#menu a {
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #C0C0C0;
+  font-weight: bold; }
+  #menu a:hover {
+    color: steelblue; }
+  #menu a:first-child {
+    border-top: 1px solid #f3f3f3; }
+  #menu a:last-child {
+    border-bottom: none; }
+
 .active {
   background-color: #333333;
-  color: white; }
+  color: #f3f3f3; }
+
+.current {
+  color: steelblue !important; }
