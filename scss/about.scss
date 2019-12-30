@@ -33,6 +33,9 @@
     color: $primary-link;
     font-size: 2.2rem;
     margin-left: 0.25rem;
+    &:hover{
+      filter: brightness(75%);
+    }
   }
 }
 
@@ -140,11 +143,11 @@
 .competition-content{
   display: flex;
   flex-direction: column;
-  margin: 0.5rem 0.5rem 1rem 0;
+  margin: 0.5rem 0 1rem 0.5rem;
   .competition {
     display: flex;
     flex-direction: row;
-    margin: 0.5rem 0;
+    margin: 0.5rem 1rem 0.5rem 0;
 
     img {
       width: 250px;

@@ -1,4 +1,6 @@
-@media (max-width: 898px){
+@import "config";
+// Tablets
+@media (max-width: 1024px){
   #recent-projects {
     .projects-container{
       display: grid;
@@ -27,5 +29,167 @@
       }
     }
   }
+  .display-projects{
+    .display-project{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: $card-background-color;
+      padding: 1rem;
+      border: 1px solid $secondary-light;
+    img{
+      border: 1px solid $primary-color;
+      width: 275px;
+      height: 200px;
+    }
+      a{
+        color: $primary-color;
+      }
+      .project-text{
+        margin-bottom: -2rem;
+      h2{
+        text-align: center;
+      }
+      p{
+        visibility: hidden;
+      }
+    }
+    }
+
+  }
+  #project-content{
+    img{
+      width: 1000px;
+      height: 650px;
+    }
+  }
+  #project-info{
+    .project-grid{
+        margin: 0 0.5rem;
+    }
+  }
+  .blogs-showcase-content{
+    margin: 0 0.5rem
+  }
+  #blog-post-title{
+    .post-title-content{
+      .blog-post-img{
+        width: 1000px;
+        height: 650px;
+      }
+      i{
+        margin-right: 0.5rem;
+      }
+    }
+  }
+  .post-content{
+    margin: 0 0.5rem;
+  }
+  .about-img-content{
+    img{
+      margin-left: 2rem;
+    }
+  }
+  .contact-info{
+      margin-left: 6rem;
+  }
+  .about-text {
+    margin-top: -1.5rem;
+  }
+  .certifications-content .certification{
+    img{
+      width: 225px;
+      height: 175px;
+    }
+  }
 }
 
+@media (max-width: 1023px) and (min-width: 767px){
+  #page-content{
+    .content-wrap{
+  #projects-section{
+  .section-content{
+    .display-projects{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  }
+      #project-showcase {
+        #project-content {
+          img {
+            width: 750px;
+            height: 500px;
+          }
+        }
+      }
+}
+    .process-content{
+      .section-project-content{
+        .title-showcase{
+          display: flex;
+          flex-direction: column;
+          .image-container{
+            display: flex;
+            align-self: center;
+          }
+          img{
+            width: 750px;
+            height: 450px;
+          }
+          .section-prompts{
+            margin-left: -1rem;
+
+          }
+          .progress-project{
+            display: flex;
+            flex-direction: row;
+            margin-top: 0;
+            margin-bottom: 1rem;
+            .progress-bar{
+              margin-top: 0.4rem;
+              margin-left: 0.25rem;
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #page-content{
+    .content-wrap{
+    #blog-post-title{
+      .post-title-content{
+        .blog-post-img{
+            width: 750px;
+            height: 500px;
+        }
+      }
+    }
+  }
+  }
+  #page-content {
+    .content-wrap {
+      #about-intro {
+        .about-intro-content {
+          .about-img{
+            margin-left: -2rem;
+          }
+          .contact-info{
+            margin-left: 4rem;
+          }
+          .about-text{
+            margin-bottom: -2rem;
+          margin-left: 0.75rem;
+          }
+        }
+      }
+      #about-certifications{
+        .certifications-content{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    }
+  }
+}

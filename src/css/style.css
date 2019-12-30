@@ -274,24 +274,6 @@
         font-size: 1.5rem;
         padding: 0 0.25rem; }
 
-@media (max-width: 898px) {
-  #recent-projects .projects-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); }
-    #recent-projects .projects-container .card:last-child {
-      display: none; }
-  #recent-blogs .blogs-container .card img {
-    align-items: center; }
-  #podcast .podcast-content #img-content img {
-    width: 230px;
-    height: 220px; }
-  #podcast .podcast-content .text-content {
-    font-size: 0.8rem; }
-    #podcast .podcast-content .text-content a {
-      padding: 0.5rem;
-      width: 82px;
-      text-align: center; } }
-
 #showcase {
   color: #f3f3f3;
   background: #333333;
@@ -378,8 +360,8 @@
   #project-content h3 {
     margin-bottom: 0.5rem; }
   #project-content img {
-    width: 1100px;
-    height: 750px; }
+    width: 1025px;
+    height: 725px; }
 
 #project-info .project-grid {
   display: grid;
@@ -472,73 +454,6 @@
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem; }
 
-.display-project {
-  position: relative;
-  background: steelblue;
-  overflow: hidden; }
-  .display-project:after {
-    content: '';
-    position: absolute;
-    display: block;
-    background: inherit;
-    opacity: 0.9;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
-    transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1); }
-  .display-project:hover:after {
-    transform: scale(2) translateX(0) translateY(0) rotate(-28deg); }
-  .display-project:hover .item-image {
-    transform: scale(1.2); }
-  .display-project:hover .project-text {
-    opacity: 1;
-    transform: translateY(0); }
-  .display-project .item-image {
-    height: auto;
-    transform: translateZ(0);
-    display: block;
-    transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1); }
-  .display-project .item-image:before {
-    content: '';
-    display: block;
-    padding-top: 75%;
-    overflow: hidden; }
-  .display-project .item-image img {
-    width: 343.33px;
-    height: 257.48px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    line-height: 0; }
-  .display-project .project-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    text-align: center;
-    z-index: 1;
-    color: #fff;
-    transform: translateY(-20%);
-    transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
-    transition-delay: 300ms; }
-  .display-project .item-text-wrap {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%); }
-  .display-project .item-text-title {
-    font-size: 2rem;
-    padding: 0 1rem;
-    margin: 5px 0 0 0; }
-  .display-project .item-text-category {
-    font-size: 1.2rem;
-    opacity: 0.7;
-    margin: 0; }
-
 #blogs-title .blogs-title-content h1 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem; }
@@ -548,6 +463,9 @@
 
 #blog-post-title .post-title-content h1 {
   margin-bottom: 0.25rem; }
+
+#blog-post-title .post-title-content i {
+  margin-right: 0.25rem; }
 
 #blog-post-title .post-title-content h3 {
   font-size: 1.1rem; }
@@ -565,11 +483,12 @@
     margin-left: 0.5rem; }
 
 #blog-post-title .post-title-content .blog-post-img {
-  width: 1100px;
-  height: 700px; }
+  width: 1025px;
+  height: 725px; }
 
 .post-content {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  margin-left: 1rem; }
   .post-content .post-section h2 {
     margin-bottom: 0.5rem; }
   .post-content .post-section p {
@@ -586,7 +505,8 @@
     margin-top: 0.5rem; }
 
 #references {
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  margin-left: 0.5rem; }
   #references .references-content h2 {
     padding-bottom: 0.25rem; }
   #references .references-content ul {
@@ -619,6 +539,8 @@
     color: steelblue;
     font-size: 2.2rem;
     margin-left: 0.25rem; }
+    .contact-info a:hover {
+      filter: brightness(75%); }
 
 #about-education .schools {
   margin-top: 1rem; }
@@ -687,11 +609,11 @@
 .competition-content {
   display: flex;
   flex-direction: column;
-  margin: 0.5rem 0.5rem 1rem 0; }
+  margin: 0.5rem 0 1rem 0.5rem; }
   .competition-content .competition {
     display: flex;
     flex-direction: row;
-    margin: 0.5rem 0; }
+    margin: 0.5rem 1rem 0.5rem 0; }
     .competition-content .competition img {
       width: 250px;
       height: 175px; }
@@ -707,6 +629,107 @@
       .competition-content .competition .competition-text span {
         color: steelblue; }
 
+@media (max-width: 1024px) {
+  #recent-projects .projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+    #recent-projects .projects-container .card:last-child {
+      display: none; }
+  #recent-blogs .blogs-container .card img {
+    align-items: center; }
+  #podcast .podcast-content #img-content img {
+    width: 230px;
+    height: 220px; }
+  #podcast .podcast-content .text-content {
+    font-size: 0.8rem; }
+    #podcast .podcast-content .text-content a {
+      padding: 0.5rem;
+      width: 82px;
+      text-align: center; }
+  .display-projects .display-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 1rem;
+    border: 1px solid #C0C0C0; }
+    .display-projects .display-project img {
+      border: 1px solid #333333;
+      width: 275px;
+      height: 200px; }
+    .display-projects .display-project a {
+      color: #333333; }
+    .display-projects .display-project .project-text {
+      margin-bottom: -2rem; }
+      .display-projects .display-project .project-text h2 {
+        text-align: center; }
+      .display-projects .display-project .project-text p {
+        visibility: hidden; }
+  #project-content img {
+    width: 1000px;
+    height: 650px; }
+  #project-info .project-grid {
+    margin: 0 0.5rem; }
+  .blogs-showcase-content {
+    margin: 0 0.5rem; }
+  #blog-post-title .post-title-content .blog-post-img {
+    width: 1000px;
+    height: 650px; }
+  #blog-post-title .post-title-content i {
+    margin-right: 0.5rem; }
+  .post-content {
+    margin: 0 0.5rem; }
+  .about-img-content img {
+    margin-left: 2rem; }
+  .contact-info {
+    margin-left: 6rem; }
+  .about-text {
+    margin-top: -1.5rem; }
+  .certifications-content .certification img {
+    width: 225px;
+    height: 175px; } }
+
+@media (max-width: 1023px) and (min-width: 767px) {
+  #page-content .content-wrap #projects-section .section-content .display-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  #page-content .content-wrap #project-showcase #project-content img {
+    width: 750px;
+    height: 500px; }
+  #page-content .process-content .section-project-content .title-showcase {
+    display: flex;
+    flex-direction: column; }
+    #page-content .process-content .section-project-content .title-showcase .image-container {
+      display: flex;
+      align-self: center; }
+    #page-content .process-content .section-project-content .title-showcase img {
+      width: 750px;
+      height: 450px; }
+    #page-content .process-content .section-project-content .title-showcase .section-prompts {
+      margin-left: -1rem; }
+    #page-content .process-content .section-project-content .title-showcase .progress-project {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+      margin-bottom: 1rem; }
+      #page-content .process-content .section-project-content .title-showcase .progress-project .progress-bar {
+        margin-top: 0.4rem;
+        margin-left: 0.25rem;
+        width: 300px; }
+  #page-content .content-wrap #blog-post-title .post-title-content .blog-post-img {
+    width: 750px;
+    height: 500px; }
+  #page-content .content-wrap #about-intro .about-intro-content .about-img {
+    margin-left: -2rem; }
+  #page-content .content-wrap #about-intro .about-intro-content .contact-info {
+    margin-left: 4rem; }
+  #page-content .content-wrap #about-intro .about-intro-content .about-text {
+    margin-bottom: -2rem;
+    margin-left: 0.75rem; }
+  #page-content .content-wrap #about-certifications .certifications-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
 * {
   margin: 0;
   padding: 0;
@@ -715,7 +738,8 @@
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  background: #f3f3f3; }
+  background: #f3f3f3;
+  -webkit-tap-highlight-color: transparent; }
 
 a {
   text-decoration: none;

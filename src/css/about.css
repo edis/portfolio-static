@@ -24,6 +24,8 @@
     color: steelblue;
     font-size: 2.2rem;
     margin-left: 0.25rem; }
+    .contact-info a:hover {
+      filter: brightness(75%); }
 
 #about-education .schools {
   margin-top: 1rem; }
@@ -92,11 +94,11 @@
 .competition-content {
   display: flex;
   flex-direction: column;
-  margin: 0.5rem 0.5rem 1rem 0; }
+  margin: 0.5rem 0 1rem 0.5rem; }
   .competition-content .competition {
     display: flex;
     flex-direction: row;
-    margin: 0.5rem 0; }
+    margin: 0.5rem 1rem 0.5rem 0; }
     .competition-content .competition img {
       width: 250px;
       height: 175px; }
