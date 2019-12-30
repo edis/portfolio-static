@@ -712,6 +712,30 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); } }
 
+@media (max-width: 766px) and (min-width: 320px) {
+  #showcase .showcase-container {
+    display: flex; }
+    #showcase .showcase-container .showcase-content h1 {
+      font-size: 1.9rem;
+      margin-bottom: 1rem; }
+  #recent-projects .projects-container {
+    display: grid;
+    grid-template-columns: 1fr; }
+  #recent-blogs .blogs-showcase-content article {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  #podcast .podcast-content {
+    display: flex;
+    flex-direction: column; }
+  #projects-section .section-content .projects-content .display-projects {
+    display: grid;
+    grid-template-columns: 1fr; }
+  #blogs-showcase .blogs-showcase-content article {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 * {
   margin: 0;
   padding: 0;
