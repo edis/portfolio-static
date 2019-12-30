@@ -1,44 +1,113 @@
-#about-intro .about-intro-content {
-  display: grid;
-  grid-template-columns: 1fr 2fr; }
-  #about-intro .about-intro-content img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%; }
-  #about-intro .about-intro-content .about-text-content {
-    margin-top: 2.5rem; }
-    #about-intro .about-intro-content .about-text-content h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem; }
-    #about-intro .about-intro-content .about-text-content p {
-      font-size: 1.2rem; }
-
-#about-education .about-education-content .about-education-title {
-  margin-left: 1rem;
-  display: flex;
-  flex-direction: row; }
-  #about-education .about-education-content .about-education-title h1 {
-    font-size: 2rem; }
-
-#about-education .about-education-content .schools {
+#about-intro {
   margin-top: 1rem; }
-  #about-education .about-education-content .schools .school {
+  #about-intro .about-intro-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+    #about-intro .about-intro-content img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%; }
+    #about-intro .about-intro-content .about-img-content {
+      margin-top: 1rem; }
+    #about-intro .about-intro-content .about-text-content {
+      margin-top: 2.5rem; }
+      #about-intro .about-intro-content .about-text-content h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem; }
+      #about-intro .about-intro-content .about-text-content p {
+        font-size: 1.2rem; }
+
+.contact-info {
+  display: inline-block;
+  margin-left: 4rem; }
+  .contact-info a {
+    color: steelblue;
+    font-size: 2.2rem;
+    margin-left: 0.25rem; }
+
+#about-education .schools {
+  margin-top: 1rem; }
+  #about-education .schools .school {
     margin-left: 0.5rem;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: row; }
-    #about-education .about-education-content .schools .school .school-info {
+    #about-education .schools .school .school-info {
       display: flex;
       flex-direction: column;
       margin: 1.7rem 0 0 0.5rem; }
-      #about-education .about-education-content .schools .school .school-info h1 {
+      #about-education .schools .school .school-info h1 {
         font-size: 1.3rem; }
-      #about-education .about-education-content .schools .school .school-info h2 {
+      #about-education .schools .school .school-info h2 {
         font-size: 1.1rem; }
-      #about-education .about-education-content .schools .school .school-info h3 {
+      #about-education .schools .school .school-info h3 {
         font-size: 1rem; }
-    #about-education .about-education-content .schools .school img {
+    #about-education .schools .school img {
       width: 150px;
       height: 150px; }
-    #about-education .about-education-content .schools .school .nest {
+    #about-education .schools .school .nest {
       border: 2px solid #C0C0C0; }
+
+.section-resume .about-title {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row; }
+  .section-resume .about-title h1 {
+    font-size: 1.8rem; }
+
+#skills {
+  margin-top: 0; }
+
+.skills-content {
+  margin-left: 2.5rem; }
+  .skills-content .skills-list ul {
+    column-count: 2; }
+    .skills-content .skills-list ul li {
+      list-style: disc;
+      font-size: 1.3rem; }
+
+.certifications-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1rem; }
+  .certifications-content .certification {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .certifications-content .certification img {
+      width: 300px;
+      height: 225px; }
+    .certifications-content .certification .certification-text h1 {
+      font-size: 1.3rem; }
+    .certifications-content .certification .certification-text h2 {
+      font-size: 1.1rem; }
+    .certifications-content .certification .certification-text span {
+      color: steelblue; }
+      .certifications-content .certification .certification-text span h1 {
+        font-size: 1.4rem; }
+      .certifications-content .certification .certification-text span h2 {
+        font-size: 1.2rem; }
+
+.competition-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0.5rem 1rem 0; }
+  .competition-content .competition {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0; }
+    .competition-content .competition img {
+      width: 250px;
+      height: 175px; }
+    .competition-content .competition .competition-text {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0.5rem;
+      margin-left: 0.75rem; }
+      .competition-content .competition .competition-text h1 {
+        font-size: 1.4rem; }
+      .competition-content .competition .competition-text h2 {
+        font-size: 1.3rem; }
+      .competition-content .competition .competition-text span {
+        color: steelblue; }
