@@ -218,6 +218,10 @@
         display: flex;
         flex-direction: column;
          align-items: center;
+        img{
+          width: 300px;
+          height: 225px;
+        }
       }
     }
   }
@@ -228,7 +232,7 @@
     }
   }
 
-  // Projects Page
+  // Projects Showcase Page
   #projects-section{
     .section-content{
     .projects-content{
@@ -240,13 +244,165 @@
   }
   }
 
+  #project-showcase{
+    #project-content{
+      .holder-border{
+        width: 350px;
+        height: 250px;
+      }
+    }
+  }
+  #project-info{
+    .overview-container{
+      .project-grid{
+        .title-section{
+          display: flex;
+          flex-direction: row;
+          border: none;
+          margin-bottom: -2rem;
+          h1{
+            font-size: 2rem;
+          }
+          .btn-dark-square{
+            height: 2.1rem;
+            margin-left: 6rem;
+            margin-top: 0;
+            padding-bottom: 2.2rem;
+            display: flex;
+            justify-items: center;
+          }
+        }
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+    .project-info-content{
+      margin-left: 0.25rem;
+    }
+  }
+  #section {
+    &-a, &-b, &-c {
+      .section-project-content {
+        .title-showcase {
+          display: flex;
+          flex-direction: column;
+          .section-prompts{
+            margin-left: -1rem;
+          }
+          .image-container {
+            display: flex;
+            align-self: center;
+            img{
+            width: 350px;
+            height: 275px
+            };
+          }
+        }
+      }
+    }
+  }
 
+  #blog-post-title{
+    .post-title-content{
+      .blog-post-img{
+        width: 350px;
+        height: 275px;
+      }
+    }
+  }
+  #post-content-section{
+    .post-content{
+      .post-section{
+        .section-image{
+          .holder-border{
+            width: 350px;
+            height: 275px;
+          }
+        }
+      }
+    }
+  }
+  // Blogs Showcase Page
   #blogs-showcase{
     .blogs-showcase-content{
       article{
         display: flex;
         flex-direction: column;
         align-items: center;
+      }
+    }
+  }
+  #about-intro{
+    .about-intro-content{
+      display: flex;
+      flex-direction: column;
+      .contact-info{
+        margin-left: 7.5rem
+      }
+      img{
+        margin-left: 3.4rem;
+      }
+      .about-text-content{
+        h1{
+          font-size: 1.7rem;
+          text-align: center;
+        }
+        p{
+          text-indent: 20px;
+          margin-bottom: -2rem;
+        }
+      }
+    }
+  }
+  #about-education{
+    .about-education-content{
+      .schools{
+        .school{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 2rem;
+          img{
+            margin-bottom: -1rem;
+          }
+          &:last-child{
+            margin-bottom: -1rem;
+          }
+          .school-info{
+            h1, h2, h3{
+            text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  #about-certifications{
+    .about-certifications-content{
+      .certifications-content{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+  #about-competition{
+    .about-competition-content{
+      .competition-content{
+        .competition{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 1rem;
+          .competition-text{
+            text-align: center;
+            h1{
+              font-size: 1.1rem;
+            }
+            h2{
+              font-size: 1rem;
+            }
+          }
+        }
       }
     }
   }

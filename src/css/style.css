@@ -249,7 +249,7 @@
     display: flex;
     justify-content: space-between; }
     #footer .footer-content h4 {
-      margin-left: 0.5rem; }
+      margin-left: 1rem; }
     #footer .footer-content .contact {
       margin: 0 1rem; }
       #footer .footer-content .contact i {
@@ -329,7 +329,7 @@
 #img-content.show img {
   transform: none;
   visibility: visible;
-  opacity: 0.9; }
+  opacity: 1; }
 
 #project-content {
   display: flex;
@@ -725,16 +725,96 @@
     display: flex;
     flex-direction: column;
     align-items: center; }
+    #recent-blogs .blogs-showcase-content article img {
+      width: 300px;
+      height: 225px; }
   #podcast .podcast-content {
     display: flex;
     flex-direction: column; }
   #projects-section .section-content .projects-content .display-projects {
     display: grid;
     grid-template-columns: 1fr; }
+  #project-showcase #project-content .holder-border {
+    width: 350px;
+    height: 250px; }
+  #project-info .overview-container .project-grid {
+    display: grid;
+    grid-template-columns: 1fr; }
+    #project-info .overview-container .project-grid .title-section {
+      display: flex;
+      flex-direction: row;
+      border: none;
+      margin-bottom: -2rem; }
+      #project-info .overview-container .project-grid .title-section h1 {
+        font-size: 2rem; }
+      #project-info .overview-container .project-grid .title-section .btn-dark-square {
+        height: 2.1rem;
+        margin-left: 6rem;
+        margin-top: 0;
+        padding-bottom: 2.2rem;
+        display: flex;
+        justify-items: center; }
+  #project-info .project-info-content {
+    margin-left: 0.25rem; }
+  #section-a .section-project-content .title-showcase, #section-b .section-project-content .title-showcase, #section-c .section-project-content .title-showcase {
+    display: flex;
+    flex-direction: column; }
+    #section-a .section-project-content .title-showcase .section-prompts, #section-b .section-project-content .title-showcase .section-prompts, #section-c .section-project-content .title-showcase .section-prompts {
+      margin-left: -1rem; }
+    #section-a .section-project-content .title-showcase .image-container, #section-b .section-project-content .title-showcase .image-container, #section-c .section-project-content .title-showcase .image-container {
+      display: flex;
+      align-self: center; }
+      #section-a .section-project-content .title-showcase .image-container img, #section-b .section-project-content .title-showcase .image-container img, #section-c .section-project-content .title-showcase .image-container img {
+        width: 350px;
+        height: 275px; }
+  #blog-post-title .post-title-content .blog-post-img {
+    width: 350px;
+    height: 275px; }
+  #post-content-section .post-content .post-section .section-image .holder-border {
+    width: 350px;
+    height: 275px; }
   #blogs-showcase .blogs-showcase-content article {
     display: flex;
     flex-direction: column;
-    align-items: center; } }
+    align-items: center; }
+  #about-intro .about-intro-content {
+    display: flex;
+    flex-direction: column; }
+    #about-intro .about-intro-content .contact-info {
+      margin-left: 7.5rem; }
+    #about-intro .about-intro-content img {
+      margin-left: 3.4rem; }
+    #about-intro .about-intro-content .about-text-content h1 {
+      font-size: 1.7rem;
+      text-align: center; }
+    #about-intro .about-intro-content .about-text-content p {
+      text-indent: 20px;
+      margin-bottom: -2rem; }
+  #about-education .about-education-content .schools .school {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem; }
+    #about-education .about-education-content .schools .school img {
+      margin-bottom: -1rem; }
+    #about-education .about-education-content .schools .school:last-child {
+      margin-bottom: -1rem; }
+    #about-education .about-education-content .schools .school .school-info h1, #about-education .about-education-content .schools .school .school-info h2, #about-education .about-education-content .schools .school .school-info h3 {
+      text-align: center; }
+  #about-certifications .about-certifications-content .certifications-content {
+    display: grid;
+    grid-template-columns: 1fr; }
+  #about-competition .about-competition-content .competition-content .competition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem; }
+    #about-competition .about-competition-content .competition-content .competition .competition-text {
+      text-align: center; }
+      #about-competition .about-competition-content .competition-content .competition .competition-text h1 {
+        font-size: 1.1rem; }
+      #about-competition .about-competition-content .competition-content .competition .competition-text h2 {
+        font-size: 1rem; } }
 
 * {
   margin: 0;
