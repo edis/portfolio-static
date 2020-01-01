@@ -1,7 +1,6 @@
-@import "config","utilities";
-@import "footer";
-@import "media";
-
+@import "../config","../utilities";
+@import "../footer";
+@import "../media";
 
 #nav-bar {
   background: $primary-color;

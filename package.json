@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o src/css/ --recursive"
+    "sass": "node-sass -w scss/ -o src/css/ --recursive",
+    "sass-django-blogs": "node-sass -w scss/blogs  -o ../portfolio-project/blogs/static/blogs/css --recursive",
+    "sass-django-projects": "node-sass -w scss/projects -o ../portfolio-project/projects/static/projects/css --recursive",
+    "sass-django-greetings": "node-sass -w scss/greetings   -o ../portfolio-project/greetings/static/greetings/css --recursive"
   },
   "keywords": [],
   "author": "",

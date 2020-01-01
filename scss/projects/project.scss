@@ -1,4 +1,7 @@
-@import "config";
+@import "../config","../utilities";
+@import "../footer";
+@import "../media";
+
 // Project Title + Image
 #project-content{
   display: flex;

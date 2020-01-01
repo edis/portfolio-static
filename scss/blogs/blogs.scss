@@ -1,0 +1,15 @@
+@import "../config","../utilities";
+@import "../footer";
+@import "../media";
+
+#blogs-title{
+  .blogs-title-content{
+    h1{
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    p{
+      font-size: 1.1rem;
+    }
+  }
+}

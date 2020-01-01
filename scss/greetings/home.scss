@@ -1,5 +1,6 @@
-@import "config";
-// Showcase
+@import "../config","../utilities";
+@import "../footer";
+@import "../media";
 
 #showcase{
   color: $primary-light;
